@@ -2,8 +2,8 @@
   "version": 1,
   "plugins": {
     "axiom": {
-      "sha": "8f26649612042662c1ea8318ff27a49a7c24531f",
-      "version": "1.1.0",
+      "sha": "001b3a883fddd8170003aa12c236205fb9eecad6",
+      "version": "1.1.2",
       "components": {
         "mcpServers": [
           {
@@ -30,11 +30,7 @@
           },
           {
             "name": "metrics-chart",
-            "description": "Render Axiom metrics query results (application/vnd.metrics.v3+json) as line charts. Zero-dependency Unicode/ASCII by d…"
-          },
-          {
-            "name": "query-metrics",
-            "description": "Runs metrics queries against Axiom MetricsDB via scripts. Discovers available metrics, tags, and tag values. Use when a…"
+            "description": "Render saved Axiom metrics v2 or v3 JSON as line charts in a terminal or transcript. Uses Unicode/ASCII by default and…"
           },
           {
             "name": "spl-to-apl",
